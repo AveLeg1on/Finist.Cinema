@@ -1,0 +1,34 @@
+﻿<!--<Window x:Class="Finist.Cinema.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+ xmlns:fa="http://schemas.fontawesome.com/icons/"
+        xmlns:local="clr-namespace:Finist.Cinema"
+        xmlns:mah="http://metro.mahapps.com/winfx/xaml/controls"
+        mc:Ignorable="d"
+        Title="Finist"    Height="900" Width="900">
+    
+
+    
+</Window>-->
+<controls:MetroWindow x:Class="Finist.Cinema.MainWindow"
+                      xmlns:mah="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+                      xmlns:controls="http://metro.mahapps.com/winfx/xaml/controls"
+                      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                      xmlns:system="clr-namespace:System;assembly=System.Runtime"
+                      Title="Finist" Height="900" Width="900"
+                      Icon="/Resources/TitleImage/sword.png"
+                      BorderThickness="0">
+    <!--<controls:MetroWindow.Resources>
+        <SolidColorBrush x:Key="WindowBorderBrush" Color="#2B2B2B" />
+    </controls:MetroWindow.Resources>
+    <controls:MetroWindow.BorderBrush>
+        <StaticResourceExtension ResourceKey="WindowBorderBrush" />
+    </controls:MetroWindow.BorderBrush>-->
+    <!--<controls:MetroWindow.WindowTransitionsEnabled>
+        <system:Boolean>False</system:Boolean>
+    </controls:MetroWindow.WindowTransitionsEnabled>-->
+    <Frame Name="Hub"  NavigationUIVisibility="Hidden"></Frame>
+</controls:MetroWindow>

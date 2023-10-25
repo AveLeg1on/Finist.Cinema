@@ -1,0 +1,143 @@
+﻿<Page x:Class="Finist.Cinema.View.Frame.RegistrationFrame"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Finist.Cinema.View.Frame"
+      xmlns:system="clr-namespace:System;assembly=System.Runtime"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="RegistrationFrame">
+   <Page.Resources>
+        <Style TargetType="CheckBox">
+            <Setter Property="Foreground" Value="#3F8AE0" />
+        </Style>
+
+        <Style TargetType="ListView">
+            <Setter Property="BorderThickness" Value="10" />
+            <Setter Property="BorderBrush" Value="#3F8AE0" />
+            <Setter Property="Background" Value="Transparent" />
+        </Style>
+
+        <LinearGradientBrush x:Key="MyGradientBrush" StartPoint="0.5,0" EndPoint="0.5,1">
+            <GradientStop Offset="0" Color="#2F343D" />
+            <GradientStop Offset="1" Color="#23282F" />
+        </LinearGradientBrush>
+
+        <Style TargetType="Border">
+            <Setter Property="Background" Value="#2F343D" />
+        </Style>
+        <Style TargetType="Button">
+            <Setter Property="Background" Value="Transparent" />
+            <Setter Property="Foreground" Value="#fff" />
+            <Setter Property="BorderThickness" Value="2" />
+            <Setter Property="BorderBrush" Value="#3F8AE0" />
+            <Setter Property="Padding" Value="10,5" />
+            <Setter Property="Margin" Value="5" />
+            <Setter Property="FontWeight" Value="Bold" />
+            <Setter Property="FontFamily" Value="Arial" />
+            <Setter Property="FontSize" Value="16" />
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border x:Name="ButtonBorder"
+                     Background="{TemplateBinding Background}"
+                     BorderBrush="{TemplateBinding BorderBrush}"
+                     BorderThickness="{TemplateBinding BorderThickness}"
+                     CornerRadius="10">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" Content="{TemplateBinding Content}" />
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsPressed" Value="True">
+                                <Setter TargetName="ButtonBorder" Property="Background" Value="#3F8AE0" />
+                                <Setter TargetName="ButtonBorder" Property="TextBlock.Foreground" Value="#fff" />
+                            </Trigger>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="ButtonBorder" Property="Background" Value="#3F8AE0" />
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <Style TargetType="Label">
+            <Setter Property="Foreground" Value="#AAAAAA" />
+        </Style>
+        <Style TargetType="TextBlock">
+            <Setter Property="Foreground" Value="#AAAAAA" />
+            
+        </Style>
+
+
+        <Style TargetType="TextBox">
+            <Setter Property="Foreground" Value="#00BFFF" />
+            <Setter Property="Background" Value="#2F343D" />
+        </Style>
+
+        <Style TargetType="PasswordBox">
+            <Setter Property="Foreground" Value="#00BFFF" />
+            <Setter Property="Background" Value="#2F343D" />
+        </Style>
+    </Page.Resources>
+    <Grid Background="{StaticResource MyGradientBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+
+
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="133*"></ColumnDefinition>
+            <ColumnDefinition Width="27*"></ColumnDefinition>
+            <ColumnDefinition Width="240.3"></ColumnDefinition>
+            <ColumnDefinition Width="133"></ColumnDefinition>
+            <ColumnDefinition Width="133"></ColumnDefinition>
+            <ColumnDefinition Width="133*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <StackPanel Grid.Column="2" Grid.Row="2" Grid.ColumnSpan="2" Margin="10,0,133,0">
+            <TextBlock FontSize="20"  Margin="5" Text="Имя"></TextBlock>
+            <TextBlock FontSize="20"  Margin="5" Text="Фамилия"></TextBlock>
+            <TextBlock FontSize="20"  Margin="5" Text="Отчество"></TextBlock>
+            <TextBlock FontSize="20"   Margin="5" Text="Telephone" ></TextBlock>
+            <TextBlock FontSize="20"  Margin="5"
+                       Text="Email"
+            ></TextBlock>
+            <TextBlock  FontSize="20"  Margin="5" Text="Password"></TextBlock>
+            <TextBlock FontSize="20"  Margin="5" Text="Confirm Password"></TextBlock>
+            <TextBlock FontSize="20"  Margin="5"  >Укажите дату рождения</TextBlock>
+            <TextBlock FontSize="20"  Name="GoodTextBlock"></TextBlock>
+        </StackPanel>
+        <StackPanel Grid.Column="3" Grid.Row="2" Grid.ColumnSpan="2" Margin="0,0,133,0">
+
+            <TextBox FontSize="20"  Margin="5"  Name="nameTB"></TextBox>
+            <TextBox FontSize="20"  Margin="5" Name="SecondnameTB"></TextBox>
+            <TextBox FontSize="20"   Margin="5,5,5,0"  Name="PatronymicTB"></TextBox>
+            <TextBox  FontSize="20" Margin="5"    Name="TelephoneTB"></TextBox>
+            <TextBox FontSize="20"  Margin="5"     Name="EmailTB"></TextBox>
+
+            <TextBox FontSize="20"  Name="Password" Margin="5,0,5,5"  ></TextBox>
+            <TextBox FontSize="20"  Name="ConfirmPassword"  Margin="5,0,5,5" ></TextBox>
+
+            <DatePicker Name="DateBirthday"  Margin="5,10,5,5"></DatePicker>
+
+        </StackPanel>
+
+        <Image Grid.Column="4" Height="200" Width="200" Name="Im" Grid.Row="2" Grid.ColumnSpan="2"/>
+        <Button Grid.Column="4" VerticalAlignment="Center" Click="UploadPhoto" Grid.Row="7" Content="Загрузить фото" Grid.ColumnSpan="2" Margin="107,0,5,0" Height="23" />
+        <Button Click="Registration_Click" Height="39" Grid.Column="3" Grid.Row="10"  Content="Зарегистрироваться"  Grid.ColumnSpan="2" Margin="5,5,5,5"></Button>
+        
+
+    </Grid>
+</Page>
