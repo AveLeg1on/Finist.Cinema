@@ -14,7 +14,8 @@
 
 ## Скриншоты
 **Экран авторизации**
-![Finist Cinema_PSWzo78VUA](https://github.com/AveLeg1on/Finist.Cinema/assets/58211377/624ea1b2-8c5d-4cc4-8151-6e947f573e42)
+![Authtarization](https://github.com/AveLeg1on/Finist.Cinema/assets/58211377/f1d01a2e-af17-4f9a-afbd-e431dd5a73b3)
+
 
 **Регистрация пользователя**
 ![Finist Cinema_CpwGQzXP6N](https://github.com/AveLeg1on/Finist.Cinema/assets/58211377/059e5fa4-43a7-45c0-90ee-8291ea725c28)
