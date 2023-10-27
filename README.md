@@ -18,19 +18,24 @@
 
 
 **Регистрация пользователя**
-![Finist Cinema_CpwGQzXP6N](https://github.com/AveLeg1on/Finist.Cinema/assets/58211377/059e5fa4-43a7-45c0-90ee-8291ea725c28)
+![Registration](https://github.com/AveLeg1on/Finist.Cinema/assets/58211377/2cf25b42-bab9-4b08-b441-9ab73e7c5fae)
+
 
 **Hub с доступными к просмотру фильму**
-![Finist Cinema_Z9gWrBTuSl](https://github.com/AveLeg1on/Finist.Cinema/assets/58211377/2f4a3843-8427-4346-97f3-ae1424a3a365)
+![MainHub](https://github.com/AveLeg1on/Finist.Cinema/assets/58211377/f66e7a58-1569-4877-91a7-e283b0a2a7c0)
+
 
 **Даты сеансов**
-![Finist Cinema_e86Q5TM4ts](https://github.com/AveLeg1on/Finist.Cinema/assets/58211377/ad38f4d6-949d-4722-b6b7-216b08e8f236)
+![Dates](https://github.com/AveLeg1on/Finist.Cinema/assets/58211377/99650b98-9ab6-445f-8829-cb612e52ecb0)
 
-**Выбор места/снеков к фильму**![Finist Cinema_dM7ZKaizkm](https://github.com/AveLeg1on/Finist.Cinema/assets/58211377/2ead7188-93de-4439-a1b8-6b6475dc0633)
-![Finist Cinema_h1xMP9GlxR](https://github.com/AveLeg1on/Finist.Cinema/assets/58211377/3c729e6e-a7a0-4b0f-8e59-6c34373ca56c)
-![7PJu0wc6c8](https://github.com/AveLeg1on/Finist.Cinema/assets/58211377/44eae21f-1328-40ae-9dde-a2aad51dd8e5)
+
+**Выбор места/снеков к фильму** ![ChekSide](https://github.com/AveLeg1on/Finist.Cinema/assets/58211377/46be8cb5-cf87-45b7-aa16-f1e4c0af97ea)
+![Food](https://github.com/AveLeg1on/Finist.Cinema/assets/58211377/c5cd3663-04d5-4ba2-92e7-ba532dbba3bb)
+![Bilets](https://github.com/AveLeg1on/Finist.Cinema/assets/58211377/ad31b5cf-c948-43a8-8745-eb6ede113c54)
+
 
 **История заказов**
-![Finist Cinema_xxFsGRxc8D](https://github.com/AveLeg1on/Finist.Cinema/assets/58211377/af728365-e4fa-4768-b42a-97e66c3bba32)
+![History](https://github.com/AveLeg1on/Finist.Cinema/assets/58211377/380eadc0-6c76-434c-a8f3-8901619eb2a0)
+
 
 ##
