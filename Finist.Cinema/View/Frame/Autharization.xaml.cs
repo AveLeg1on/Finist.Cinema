@@ -73,8 +73,7 @@ namespace Finist.Cinema.View.Frame
 			OnlineTextBlock.Text =$"Пользователей онлайн: {db.Viewers.ToList().Count}";
 			
 
-			// строка подключения к вашей базе данных
-
+		
 			var moviesActors = db.Set<MovieActorView>().FromSqlRaw("SELECT * FROM ActorForMovies")
 				.ToList();
 			LV.ItemsSource = moviesActors;
