@@ -61,7 +61,7 @@ namespace Finist.Cinema.View.Frame
 		private void Button_Click(object sender, RoutedEventArgs e)
 		{
 			string uk =
-				"https://ru.wikipedia.org/wiki/%D0%9A%D0%BE%D0%BD%D1%81%D1%82%D0%B8%D1%82%D1%83%D1%86%D0%B8%D1%8F_%D0%A3%D0%BA%D1%80%D0%B0%D0%B8%D0%BD%D1%8B";
+				"https://www.google.com/";
 
 			Process.Start(new ProcessStartInfo(uk) { UseShellExecute = true });
 
